@@ -100,7 +100,7 @@ with st.sidebar.expander("Filters", expanded=True):
         if selection:  # skip unrecognized column types and empty selections
             filters[col] = selection
 
-    query = st.text_area("Custom query") or "tuple()"  # selects all rows
+   # query = st.text_area("Custom query") or "tuple()"  # selects all rows
 
 # ==================================================================== #
 #                         FILTER APPLICATION                           #
