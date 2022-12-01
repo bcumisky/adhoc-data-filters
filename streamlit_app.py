@@ -108,7 +108,7 @@ with st.sidebar.expander("Filters", expanded=True):
 # apply the slicers and custom query
 for col, selection in filters.items():
     data = apply_slicer(data, col, selection)
-data = data.query(query, engine="python")
+#data = data.query(query, engine="python")
 
 # ==================================================================== #
 #                         FINAL CONFIGURATION                          #
